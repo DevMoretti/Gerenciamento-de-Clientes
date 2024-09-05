@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consulta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento de Pacientes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pacientes</a></li>
+                <li><a href="novo-paciente.html">Novo Paciente</a></li>
+                <li><a href="agendar-consulta.html">Agendar Consulta</a></li>
+                <li><a href="solicitar-exames.html">Solicitar Exames</a></li>
+                <li><a href="historico-medico.html">Histórico Médico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="agendar-consulta">
+            <h2>Agendar Consulta</h2>
+            <form>
+                <label for="especialidade">Especialidade:</label>
+                <select id="especialidade" name="especialidade">
+                    <option value="clinica-geral">Clínica Geral</option>
+                    <option value="pediatria">Pediatria</option>
+                    <option value="cardiologia">Cardiologia</option>
+                </select>
+
+                <label for="data-consulta">Data:</label>
+                <input type="date" id="data-consulta" name="data-consulta" required>
+
+                <label for="hora-consulta">Hora:</label>
+                

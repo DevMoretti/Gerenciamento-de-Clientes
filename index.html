@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pacientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento de Pacientes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pacientes</a></li>
+                <li><a href="novo-paciente.html">Novo Paciente</a></li>
+                <li><a href="agendar-consulta.html">Agendar Consulta</a></li>
+                <li><a href="solicitar-exames.html">Solicitar Exames</a></li>
+                <li><a href="historico-medico.html">Histórico Médico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="lista-pacientes">
+            <h2>Lista de Pacientes</h2>
+            <input type="text" id="search" placeholder="Buscar paciente...">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Data de Nascimento</th>
+                        <th>Telefone</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Maria Silva</td>
+                        <td>123.456.789-00</td>
+                        <td>10/02/1985</td>
+                        <td>(11) 98765-4321</td>
+                        <td>
+                            <button>Editar</button>
+                            <button>Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

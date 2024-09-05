@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Exames</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento de Pacientes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pacientes</a></li>
+                <li><a href="novo-paciente.html">Novo Paciente</a></li>
+                <li><a href="agendar-consulta.html">Agendar Consulta</a></li>
+                <li><a href="solicitar-exames.html">Solicitar Exames</a></li>
+                <li><a href="historico-medico.html">Histórico Médico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="solicitar-exames">
+            <h2>Solicitar Exames</h2>
+            <form>
+                <label for="paciente-exame">Paciente:</label>
+                <select id="paciente-exame" name="paciente-exame">
+                    <option value="maria-silva">Maria Silva</option>
+                    <option value="joao-santos">João Santos</option>
+                </select>
+
+                <label for="exame">Exame:</label>
+                <select id="exame" name="exame">
+                    <option value="sangue">Exame de Sangue</option>
+                    <option value="raio-x">Raio-X</option>
+                    <option value="urina">Exame de Urina</option>
+                </select>
+
+                <button type="submit">Solicitar Exame</button>
+                <button type="reset">Cancelar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

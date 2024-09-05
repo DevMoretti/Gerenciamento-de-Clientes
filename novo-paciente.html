@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Novo Paciente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento de Pacientes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pacientes</a></li>
+                <li><a href="novo-paciente.html">Novo Paciente</a></li>
+                <li><a href="agendar-consulta.html">Agendar Consulta</a></li>
+                <li><a href="solicitar-exames.html">Solicitar Exames</a></li>
+                <li><a href="historico-medico.html">Histórico Médico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="novo-paciente">
+            <h2>Cadastrar Novo Paciente</h2>
+            <form>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" required>
+
+                <button type="submit">Salvar</button>
+                <button type="reset">Cancelar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
